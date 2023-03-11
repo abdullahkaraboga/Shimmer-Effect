@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7C581229BD078B00CD0B37 /* ShimmerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C581129BD078B00CD0B37 /* ShimmerContainer.swift */; };
+		7B7C581429BD1A0300CD0B37 /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C581329BD1A0300CD0B37 /* ContentLoader.swift */; };
 		7B8E288229BCC233005F5075 /* ShimmerEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E288129BCC233005F5075 /* ShimmerEffectApp.swift */; };
 		7B8E288429BCC233005F5075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E288329BCC233005F5075 /* ContentView.swift */; };
 		7B8E288629BCC235005F5075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8E288529BCC235005F5075 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B7C581129BD078B00CD0B37 /* ShimmerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerContainer.swift; sourceTree = "<group>"; };
+		7B7C581329BD1A0300CD0B37 /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
 		7B8E287E29BCC233005F5075 /* ShimmerEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8E288129BCC233005F5075 /* ShimmerEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectApp.swift; sourceTree = "<group>"; };
 		7B8E288329BCC233005F5075 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				7B8E288329BCC233005F5075 /* ContentView.swift */,
 				7B8E288529BCC235005F5075 /* Assets.xcassets */,
 				7B8E288729BCC235005F5075 /* Preview Content */,
+				7B7C581129BD078B00CD0B37 /* ShimmerContainer.swift */,
+				7B7C581329BD1A0300CD0B37 /* ContentLoader.swift */,
 			);
 			path = ShimmerEffect;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7C581429BD1A0300CD0B37 /* ContentLoader.swift in Sources */,
 				7B8E288429BCC233005F5075 /* ContentView.swift in Sources */,
 				7B8E288229BCC233005F5075 /* ShimmerEffectApp.swift in Sources */,
+				7B7C581229BD078B00CD0B37 /* ShimmerContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
